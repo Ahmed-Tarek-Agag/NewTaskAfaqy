@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Ninja Store Suite">
+<Parameter name="browser" value= "chrome"></Parameter>
+	<test name="Test">
+		<classes>
+			<class name="Tests.HomeTest" />
+		</classes>
+	</test>
+</suite>
